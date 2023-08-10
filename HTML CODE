@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#personal">Personal Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact ">Contact Me</a></li>
+
+        </ul>
+
+    </nav>
+    <section id="home">
+
+        <h1 class="heading">HI, I AM</h1>
+
+        <h1 class="heading">RITIK PATEL</h1>
+        <br><br>
+
+        <p>AND THIS IS MY RESUME</p>
+
+    </section>
+    <section id="portfolio">
+
+        <h1 class="heading">Portfolio</h1>
+        <h1>Retail Job Experience for Portfolio: Customer-focused Sales Associate</h1>
+
+  <h2>Position: Sales Associate</h2>
+  <p><strong>Company:</strong> Fashion Haven</p>
+  <p><strong>Duration:</strong> July 2021 - December 2022</p>
+
+  <h3>Description:</h3>
+  <p>
+    As a dedicated Sales Associate at Fashion Haven, I consistently provided exceptional customer service and played a pivotal role in enhancing the shopping experience for our valued clientele. I effectively balanced my responsibilities of assisting customers, maintaining visual merchandising, and ensuring a seamless checkout process. My commitment to achieving sales targets while fostering a positive and welcoming atmosphere allowed me to excel in this role.
+  </p>
+  <h2>Position: Retail Associate</h2>
+  <p><strong>Company:</strong> Urban Junction</p>
+  <p><strong>Duration:</strong> January 2023 - July 2023</p>
+
+  <h3>Responsibilities and Achievements:</h3>
+
+  <h4>Customer Assistance and Sales:</h4>
+  <ul>
+    <li>Welcomed and engaged customers, offering assistance and product recommendations based on their preferences and needs.</li>
+    <li>Consistently ranked among the top 3 sales associates, achieving a 10% increase in personal sales compared to store average.</li>
+  </ul>
+
+  <h4>Inventory Control and Visual Merchandising:</h4>
+  <ul>
+    <li>Collaborated with the team to maintain a well-organized sales floor, ensuring products were neatly displayed and easily accessible.</li>
+    <li>Conducted daily inventory checks, identifying discrepancies and reducing stock loss by 15%.</li>
+  </ul>
+
+  <h4>Cash Handling and Checkout Efficiency:</h4>
+  <ul>
+    <li>Operated the cash register accurately, processing transactions efficiently and managing cash, credit, and digital payments.</li>
+    <li>Received positive customer feedback for maintaining a friendly demeanor during busy periods, ensuring a pleasant checkout experience.</li>
+  </ul>
+    </section>
+    <section id="personal">
+
+        <h1 class="heading">Personal Projects</h1>
+
+        <div class="columns">
+
+            <div class="box">
+
+                <h2>Hardware Upgrade Initiative</h2>
+
+                <p>Replace outdated components to enhance system performance and reliability.</p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>Quiz App</h2>
+
+                <p>Create a quiz application with multiple-choice questions and score tracking.</p>
+
+            </div>
+            <div class="box">
+
+                <h2>Login System</h2>
+
+                <p>Build a program that prompts users to log in and welcomes them by name.</p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>Currency Converter</h2>
+
+                <p>Design a program that converts currency values between different units.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="about">
+
+        <h1 class="heading">About me</h1>
+
+        <div class="about">
+
+            <img src="photo2.jpg" alt="My Pic">
+
+            <div class="name">
+
+                <h2>I'm Ritik Patel</h2>
+
+                <p>Hey there, I'm Ritik Patel, and I'm all for diving into the exciting world of technology. I recently completed my 12th grade course in science, and I'm stoked to say that I nailed it with a fantastic 95% score. When it comes to tech, I’m like a kid in a candy store – I have this array of skills under my belt. I can speak a conversation in programming languages ​​like Java, Python and C++. The web development game is my jam, with HTML, CSS, and JavaScript as my trusted sidekicks.
+
+                    But wait, there’s more! I'm a bit of a database whiz with SQL and MySQL, and I'm your go-to person when it comes to untangling tech snarls and providing top-notch user support. I’m practically besties with Git for version control, and I know my way around the Linux operating system. Agile development techniques? consider. Software testing and quality assurance? Check it out twice. And I’m talking about that whole object-oriented programming life – I craft code like an artist crafts a masterpiece
+                    
+                    Now, let’s talk about my superpowers beyond the keyboard. I’m not just a tech wizard; I also have a soft side. You’ll find me not only tinkering with code but also diving passionately into the gaming world, where strategic thinking and teamwork fuel my digital adventures. Oh, and did I mention love of music? It’s not just entertainment; It’s part of who I am. From geeking out over tech to exploring virtual realms and jamming to music that makes my heart sing, I’m ready to immerse myself in the ever-changing tech landscape with my unique blend of skills and interests. Let’s create some digital magic!</P>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact">
+           <h1 class="heading">Contact</h1>
+           <form action="" class="form">
+           <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="70" rows="20" placeholder="Enter Your Message "></textarea>
+            <input type="submit" value="Submit" id="submit">
+
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
